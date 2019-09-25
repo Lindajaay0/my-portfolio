@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body { 
+    font-size: 20px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  nav {
+    padding: 1% 0;
+    display: inline;
+    list-style-type: none;
+    position: fixed;
+    text-align: center;  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right:40px;
+    margin-left: 5px;
+  }
+  
+  
+  .initials {
+    float: left;
+    display: inline-block;
+    margin-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    letter-spacing: .4em;
+    font-size: 19px;
+  }
+  
+  .fa-codepen {
+    float: right;
+    display: inline-block;
+    margin-right: 15px;
+    color: #4981f8cb;
+    opacity: .8;
+    font-size: 30px;
+  }
+  
+  .top-head {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 350px;
+    font-size: 19px;
+    height: 300px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  h1 {
+    color: #4981f8cb;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    font-size: 120px;
+    background-size: 100%;
+    margin-top: 220px;
+    margin-left: 115px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  #leo-quiz-desktop-screenshot {
+    height: 400px;
+    width: 400px;
+    display: inline;
+    text-align: center;
+  }
+  
+  .projects {
+    margin-top: 140px;
+  }
+  
+  .portfolio-label {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  .project-date {
+    color: gray;
+    font-size: 13px;
+  }
+  
+  .project-name {
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .blue-line {
+    background-color: #4981f8cb;
+    opacity: .8;
+    height: 5px;
+    margin-right: 53px;
+  }
+  
+  .language-logos {
+    word-spacing: 16px;
+    margin-bottom: 150px;
+    font-size: 18px;
+  }
+  
+  button {
+    height: 28px;
+    margin-top: 15px;
+    font-family: 'Be Vietnam', sans-serif;
+    border: 2px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+  
+  button:hover, button:active {
+    background-color: black;
+    border: black;
+    color: white;
+  }
+  
+  .about {
+    margin-bottom: 70px;
+  }
+  
+  #contact-label {
+    margin-top: 145px;
+  }
+  
+  .contact {
+    height: 200px;
+  }
+  
+  .portfolio-content {
+    font-size: 17px;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+  
+  #project-content {
+    font-size: 17px;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+  
+  .social-icons {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  
+  
+  a:link {
+    color: #444;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #444;
+  } 
+  
+  a:hover, a:active {
+    color: #4981f8cb;
+    opacity: .9;
+  }
+  
+  
+  footer {
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+  
+  
+  
+  
+  
+  /* for desktop */
+  @media screen and (min-width: 1025px) {
+    nav li {
+      margin-right: 95px;
+    }
+  
+    .initials {
+      font-size: 28px;
+      margin-left: 40px;
+      margin-bottom: 1px;
+      font-weight: 1000;
+    }
+  
+    .fa-codepen {
+      font-size: 48px;
+      margin-right: 35px;
+      margin-bottom: 1px;
+    }
+  
+    h1 {
+      margin-left: 500px;
+      text-align: center;
+      margin-top: 140px;
+      font-size: 210px;
+    }
+  
+    .top-head {
+      padding-left: 350px;
+      padding-right: 350px;
+      padding-top: 175px;
+      padding-bottom: 340px;
+      height: 400px;
+      font-size: 24px;
+    }
+  
+    .projects {
+     margin-top: 50px;
+    } 
+  
+    #leo-quiz-desktop-screenshot {
+      height: 650px;
+      width: 650px;
+      float: left;
+      
+    }
+  
+    #project-content {
+      margin-top: 180px;
+  
+    }
+  
+    .blue-line {
+      margin-left: 610px;
+    }
+  
+    .portfolio-label {
+      font-size: 22px;
+      
+    }
+  
+    .about, .contact {
+      font-size: 17px;
+      margin-left: 90px;
+      margin-right: 90px;
+      font-family: 'Be Vietnam', sans-serif;
+    }
+  
+    .language-logos {
+      font-size: 25px;
+    }
+  
+    .about {
+      margin-bottom: 50px;
+      clear: both;
+    }
+  
+    #about-label {
+     margin-top: 80px;
+    }
+  
+    button {
+      font-size: 12px;
+      margin-top: 15px;
+      height: 37px;
+      width: 140px;
+    } 
+  
+    #contact-label {
+      margin-top: 125px;
+      margin-bottom: 60px;
+    }
+  
+    .contact {
+      height: 250px;
+    }
+  
+    footer {
+      font-size: 13px;
+    }
+  }
+  
+  
+  
+  
+  
+  /* for tablet */
+  @media screen and (min-width: 480px) and (max-width: 1024px){
+    * {
+      box-sizing: border-box;
+    }
+  
+    .initials {
+      font-size: 20px;
+      margin-left: 15px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-left: 310px;
+      margin-top: 300px;
+    }
+  
+    .top-head {
+      text-align: center;
+      font-size: 18px;
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+  
+    .fa-laptop-code {
+      margin-right: 60px;
+      font-size: 50px;
+    }
+  
+    .portfolio-content {
+      margin-right: 90px;
+      margin-left: 90px;
+    }
+  
+    #project-content {
+      margin-right: 90px;
+      margin-left: 90px;
+    }
+  
+    #leo-quiz-desktop-screenshot {
+      height: 500px;
+      width: 500px;
+      margin-left: 120px;
+    }
+  }
